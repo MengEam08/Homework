@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.head-container {
+  width: 100%;
+  background-color: rgb(150, 43, 250);
+}
+
+.menu-links {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+a,
+li {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+h1,
+p {
+  color: rgb(189, 7, 234);
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin: 40px 0;
+}
+.title h1 {
+  color: rgb(132, 0, 255);
+}
+.tab-lists {
+  display: flex;
+  height: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+li {
+  color: rgb(88, 0, 175);
+}
+.tab-lists li {
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+.tab-container {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(229, 205, 251);
+  border-radius: 5px;
+}
+.tab-lists li:hover {
+  background-color: rgb(213, 108, 255);
+  color: rgb(255, 255, 255);
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.card-container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 280px;
+  height: 400px;
+  background-color: rgb(255, 160, 249);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.card img {
+  width: 100%;
+  height: 40%;
+  border-radius: 10px 10px 0 0;
+}
+.content-container {
+  padding: 15px;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+small {
+  background-color: rgb(238, 120, 171);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+.star {
+  color: rgba(255, 255, 0, 0.945);
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-clock {
+  color: rgb(249, 25, 0);
+  margin-right: 4px;
+}
+
+.fa-calendar {
+  color: rgb(7, 207, 47);
+  margin-right: 6px;
+}
+.rating-star {
+  margin: 5px 0;
+}
+.card-footer {
+  margin-top: 15px;
+}
+.heart {
+  color: red;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: gainsboro;
+}
+h2 {
+  height: 35px;
+  overflow: hidden;
+}
+footer {
+  background-color: rgb(150, 43, 250);
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-top: 40px;
+}
+footer p {
+  color: white;
+}
+h1 {
+  font-size: 32px;
+}
